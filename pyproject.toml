@@ -1,7 +1,7 @@
 [project]
 name = "video-facial-analysis"
 version = "1.0.0"
-description = "Sistema de Análise de Expressões Faciais em Vídeo - FIAP Tech Challenge Fase 4"
+description = "Análise de Expressões Faciais em Vídeo"
 requires-python = ">=3.12"
 dependencies = [
     "opencv-python>=4.8.0",
