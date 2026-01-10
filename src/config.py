@@ -1,0 +1,22 @@
+"""
+Configuration file for Video Facial Analysis System
+Contains constants and default settings
+"""
+
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).parent.parent
+INPUT_VIDEO_PATH = (
+    PROJECT_ROOT / "data" / "video.mp4"
+)
+OUTPUT_DIR = PROJECT_ROOT / "data" / "outputs"
+ACTIVITY_THRESHOLD_LOW = 2.0
+ACTIVITY_THRESHOLD_HIGH = 10.0
+DRAW_BOUNDING_BOXES = True
+DRAW_EMOTION_LABELS = True
+DRAW_ACTIVITY_INFO = True
+BOX_COLOR = (0, 255, 0)  # Green in BGR
+TEXT_COLOR = (239, 70, 205)  # Pink in BGR
+FONT_SCALE = 0.6
+FONT_THICKNESS = 2
+LOG_EVERY_N_FRAMES = 5
